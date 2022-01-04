@@ -5,40 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nikolay CV</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Nikolay who certainly has a surname</h1>
-        <h3>Junior Frontend Developer</h3>
-        <h3>Junior Backend Developer</h3>
         <nav>
-            <ul>
-                <li class="nav-item"><a href=#c_i>Contact information</a></li>
-                <li class="nav-item"><a href=#a_m>About Myself</a></li>
-                <li class="nav-item"><a href=#s_a_p>Skills and Proficiency</a></li>
-                <li class="nav-item"><a href=#c_e>Code example</a></li>
-                <li class="nav-item"><a href=#c>Courses</a></li>
-                <li class="nav-item"><a href=#l>Languages</a></li>
+            <ul class="navigation">                
+                <li class="nav-item"><a href=#about>About Myself</a></li>
+                <li class="nav-item"><a href=#skills>Skills and Proficiency</a></li>
+                <li class="nav-item"><a href=#code>Code example</a></li>
+                <li class="nav-item"><a href=#courses>Courses</a></li>
+                <li class="nav-item"><a href=#lang>Languages</a></li>
+                <li class="nav-item"><a href=#contact>Contact information</a></li>
             </ul>
         </nav>
+        <div class="info">
+            <img class="avatar" src="assets/img/AManWithHisHan.jpg" alt="me!">
+            <div class="name">
+                <h1>Nikolay who certainly has a surname</h1>
+                <p>beginner web-developer</p>
+            </div>  
+        </div>    
     </header>
     <main>
-        <section class="about">
-            <h3 id="a_m">About Myself</h3>
+
+        <section id="about">
+            <h3>About Myself</h3>
             <p>Some dude.</p>
         </section>
-        <section class="skills">
-            <h3 id="s_a_p">Skills and Proficiency</h3>
-            <ul>
-                <li>HTML5, CSS3</li>
-                <li>JavaScript Basics</li>
-                <li>PHP Basics</li>
-                <li>Git, GitHub</li>
+
+        <section id="skills">
+            <h3>Skills and Proficiency</h3>
+            <ul class="list">
+                <li class="list-item">HTML5, CSS3</li>
+                <li class="list-item">JavaScript Basics</li>
+                <li class="list-item">PHP Basics</li>
+                <li class="list-item">Git, GitHub</li>
             </ul>
         </section>
-        <section class="code">
-            <h3 id='c_e'>Code example</h3>
+
+        <section id="code">
+            <h3>Code example</h3>
             <p>Here's some code example by yours truly:</p>
             <p>PHP:</p>
             <code>
@@ -49,31 +60,32 @@
                 alert('Hello, World!');
             </code>
         </section>
-        <section class="course">
-            <h3 id="c">Courses</h3>
-            <p>I've studied HTML and PHP Basics on the <a href="https://php.zone/">php.zone</a></p>
 
+        <section id="courses">
+            <h3>Courses</h3>
+            <p>I've studied HTML and PHP Basics on the <a class="link" href="https://php.zone/">php.zone</a></p>
+        </section>
 
+        <section id="lang">
+            <h3>Languages</h3>
+            <ul class="list">
+                <li class="list-item">Russian - native language</li>
+                <li class="list-item">English - Intermediate/Upper-intermediate (according to the online test at <a class="link" href="https://www.efset.org/quick-check">www.efset.org</a>)</li>
+            </ul>
         </section>
-        <section class="language">
-            <h3 id="l">Languages</h3>
-            <p>English \- Intermediate/Upper-intermediate (according to the online test at <a href="https://www.efset.org/quick-check">www.efset.org</a></p>
-        </section>
-        <section class="contact_info">
-            <h3 id='c_i'>Contact information</h3>
-            <ul>
-                <li><a href="mailto:nikolaiwork@gmail.com">nikolaiwork@gmail.com</a></li>
-                <li><a href="https://vk.com/id38432397">Certainly my VK page</a></li>
+
+        <section id="contact">
+            <h3>Contact information</h3>
+            <ul class="list">
+                <li class="list-item"><a class="link" href="mailto:nikolaiwork@gmail.com">nikolaiwork@gmail.com</a></li>
+                <li class="list-item"><a class="link" href="https://vk.com/id38432397">Certainly my VK page</a></li>
             </ul>
         </section>
     </main>
-    <footer>
+    <footer>        
+        <a class="link" href="https://github.com/GitRyb"><img src="assets/img/github.svg" alt="">my github</a>
         <p class="year">2022</p>
-        <ul class="footer_links">
-            <li class="footer-item"><a href="https://github.com/GitRyb">My github</a></li>
-            <li class="footer-item"><a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" style="height:80px; width: 80px"></a></li>
-        </ul>
+        <a class="link" href="https://rs.school/js/"><img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="Rsschool"></a>
     </footer>
-
 </body>
 </html>
