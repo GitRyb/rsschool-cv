@@ -1,42 +1,78 @@
-body{
-    font-size: 20px;
-    font-family: "Ubuntu", sans-serif;
-    background-color: #1d262d;
-    text-align: center;
-    color: #f8f0e4;
+body {
+	max-width: 1300px;
+	margin:0 auto;
+	font-size: 20px;
+	font-family: "Ubuntu", sans-serif;
+	background-color: #1d262d;
+	color: #f8f0e4;
 }
-li{
-    list-style: none;
+
+section {
+	margin-top: 40px;
 }
-a {
-    color: #f8f0e4;
-    text-decoration: none;
+
+code {
+	color: blue;
+	background-color: #FFFDD0;
 }
-nav {
-    position: fixed;
-    left:0;
-    right: 0;
-    top:0;
-    background-color: #1d262d;
-  
+
+.navigation {
+	display: flex;
+	justify-content: center;
+	gap:0 20px;
+	flex-wrap:wrap;
+	margin-bottom: 20px;
 }
-.nav-item,.footer-item {
-    display: inline-block;
-    margin-right: 20px;
-    
+.nav-item {
+	list-style: none;
 }
-header{
-    margin-top: 60px;
-    border-bottom: 2px solid #f8f0e4;
-    ;
+.nav-item:hover {
+	text-decoration: underline;
 }
-section{
-    border-bottom: 2px solid #f8f0e4;
+
+.avatar {
+	width: 250px;
+	height: 250px;
 }
-footer{
-    display: flex;
-    justify-content: space-between;   
+
+.info {
+	display: flex;
+	align-items: center;
+	flex-wrap:wrap;
+	gap:0 40px;
+	margin-bottom: 20px;
 }
-.year{
-    align-self: flex-end;
+
+.list {
+	padding-left: 20px;
 }
+
+.list-item {
+	margin-bottom: 10px;
+}
+
+h3 {
+	margin-bottom: 20px;
+}
+
+.link {
+	text-decoration: underline;
+}
+
+header {
+	border-bottom: 2px solid #f8f0e4;
+}
+
+footer {
+	margin-top: 40px;
+	border-top: 2px solid #f8f0e4;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;   
+}
+
+.logo {
+	width: 80px;
+	height: 80px;
+}
+
