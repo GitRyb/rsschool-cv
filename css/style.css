@@ -98,6 +98,17 @@ footer {
   gap: 10px;
 }
 
+.git-logo {
+  width: 50px;
+	height: 50px;
+}
+
+.my-github {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 @media (max-width: 945px) {
   .name {
     text-align: center;
