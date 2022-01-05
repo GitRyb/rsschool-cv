@@ -9,6 +9,7 @@ body {
 
 section {
 	margin-top: 40px;
+  margin-left: 40px;
 }
 
 code {
@@ -76,3 +77,12 @@ footer {
 	height: 80px;
 }
 
+@media (max-width: 945px) {
+  .info {
+    justify-content: center;
+    align-items: center;
+  }
+  .name {
+    text-align: center;
+  }
+}
