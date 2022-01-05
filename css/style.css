@@ -13,6 +13,10 @@ body {
   border-left: 1px solid #30363d;
 }
 
+p {
+  margin-bottom: 8px;
+}
+
 header {
   border-bottom: 2px solid #30363d;
 }
@@ -26,6 +30,8 @@ section {
 }
 
 code {
+  display: inline-block;
+  margin-bottom: 14px;
   padding: 10px 10px;
   color: #58a6ff;
   background-color: #161b22;
@@ -33,7 +39,6 @@ code {
 }
 
 .code-example {
-  margin-top: 14px;
   margin-bottom: 10px;
 }
 
