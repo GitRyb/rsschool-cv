@@ -12,9 +12,12 @@ section {
   margin-left: 40px;
 }
 
-code {
+.code-example {
+  display: inline-block;
+  padding: 10px 10px;
 	color: blue;
 	background-color: #FFFDD0;
+  border-radius: 10px;
 }
 
 .navigation {
