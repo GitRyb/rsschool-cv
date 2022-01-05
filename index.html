@@ -16,24 +16,23 @@
     <header>
         <nav>
             <ul class="navigation">                
-                <li class="nav-item"><a href=#about>About Myself</a></li>
-                <li class="nav-item"><a href=#skills>Skills and Proficiency</a></li>
-                <li class="nav-item"><a href=#code>Code example</a></li>
-                <li class="nav-item"><a href=#courses>Courses</a></li>
-                <li class="nav-item"><a href=#lang>Languages</a></li>
-                <li class="nav-item"><a href=#contact>Contact information</a></li>
+                <li class="nav-item"><a class="nav-link" href=#about>About Myself</a></li>
+                <li class="nav-item"><a class="nav-link" href=#skills>Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href=#code>Code example</a></li>
+                <li class="nav-item"><a class="nav-link" href=#courses>Courses</a></li>
+                <li class="nav-item"><a class="nav-link" href=#lang>Languages</a></li>
+                <li class="nav-item"><a class="nav-link" href=#contact>Contact information</a></li>
             </ul>
         </nav>
         <div class="info">
             <img class="avatar" src="assets/img/AManWithHisHan.jpg" alt="me!">
-            <div class="name">
+            <div class="name-and-profession">
                 <h1>Nikolay who certainly has a surname</h1>
                 <p>beginner web-developer</p>
             </div>  
         </div>    
-    </header>
+    </header>    
     <main>
-
         <section id="about">
             <h3>About Myself</h3>
             <p>I'm a villager in Pelican Town who is often rude and unhappy, and suffers from depression and alcohol dependence.</p> 
@@ -42,7 +41,7 @@
         </section>
 
         <section id="skills">
-            <h3>Skills and Proficiency</h3>
+            <h3>Skills</h3>
             <ul class="list">
                 <li class="list-item">HTML5, CSS3</li>
                 <li class="list-item">JavaScript Basics</li>
@@ -54,49 +53,43 @@
         <section id="code">
             <h3>Code example</h3>
             <p>Here's some code example by yours truly:</p>
-            <p>PHP:</p>
-            <div class="code-example">
-                <code>
-                    echo 'Hello, World!';
-                </code>
-            </div>
-            <p>JavaScript:</p>
-            <div class="code-example">
-                <code>
-                    alert('Hello, World!');
-                </code>
-            </div>
+            <p class="code-example">PHP:</p>
+            <code>
+                echo 'Hello, World!';
+            </code>
+            <p class="code-example">JavaScript:</p>
+            <code>
+                alert('Hello, World!');
+            </code>
         </section>
 
         <section id="courses">
             <h3>Courses</h3>
-            <p>I've studied HTML and PHP Basics on the <a class="link" href="https://php.zone/" target="_blank" rel="noopener noreferrer">php.zone</a></p>
+            <p>I've studied HTML and PHP Basics on the <a href="https://php.zone/" target="_blank" rel="noopener noreferrer">php.zone</a></p>
         </section>
 
         <section id="lang">
             <h3>Languages</h3>
             <ul class="list">
                 <li class="list-item">Russian - native language</li>
-                <li class="list-item">English - Intermediate/Upper-intermediate (according to the online test at <a class="link" href="https://www.efset.org/quick-check">www.efset.org</a>)</li>
+                <li class="list-item">English - Intermediate/Upper-intermediate (according to the online test at <a  href="https://www.efset.org/quick-check" target="_blank" rel="noopener noreferrer">www.efset.org</a>)</li>
             </ul>
         </section>
 
         <section id="contact">
             <h3>Contact information</h3>
             <ul class="list">
-                <li class="list-item"><a class="link" href="mailto:nikolaiwork@gmail.com">nikolaiwork@gmail.com</a></li>
-                <li class="list-item"><a class="link" href="https://vk.com/id38432397" target="_blank" rel="noopener noreferrer">Certainly my VK page</a></li>
+                <li class="list-item"><a href="mailto:nikolaiwork@gmail.com">nikolaiwork@gmail.com</a></li>
+                <li class="list-item"><a href="https://vk.com/id38432397" target="_blank" rel="noopener noreferrer">Certainly my VK page</a></li>
             </ul>
         </section>
     </main>
     <footer>        
-        <a class="link" href="https://github.com/GitRyb" target="_blank" rel="noopener noreferrer">
-            <div class="my-github">
-                <img class="git-logo" src="assets/img/github.svg" alt="">my github
-            </div>
+        <a class="my-github" href="https://github.com/GitRyb" target="_blank" rel="noopener noreferrer">
+            <img class="git-logo" src="assets/img/github.svg" alt="">my github
         </a>
         <p class="year">2022</p>
-        <a class="link" href="https://rs.school/js/" target="_blank" rel="noopener noreferrer"><img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="Rsschool"></a>
+        <a href="https://rs.school/js/" target="_blank" rel="noopener noreferrer"><img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="Rsschool"></a>
     </footer>
 </body>
 </html>

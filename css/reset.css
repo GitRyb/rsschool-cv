@@ -21,6 +21,7 @@ blockquote,
 dl,
 dd {
   margin: 0;
+  padding: 0;
 }
 
 /* Выставляем основные настройки по-умолчанию для body */
@@ -29,12 +30,6 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-}
-
-/* Сбрасываем дефолтные стили у всех <a> */
-a {
-	text-decoration: none;
-	color: #f8f0e4;
 }
 
 /* Упрощаем работу с изображениями */
